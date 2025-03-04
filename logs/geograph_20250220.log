@@ -1,0 +1,1463 @@
+2025-02-20 16:33:43,474 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 16:33:43,474 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 16:33:43,479 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 16:33:43,485 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 16:33:43,485 - GeographGuardian - INFO - products.csv: ✓ (0.01s)
+2025-02-20 16:33:43,485 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 16:33:43,485 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 16:33:43,487 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 16:33:43,487 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 16:33:43,487 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 16:33:43,488 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 16:33:43,491 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 16:33:43,491 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 16:33:43,491 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 16:33:43,491 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 16:33:43,493 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 16:33:43,493 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 16:33:43,493 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 16:33:43,494 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 16:33:43,497 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 16:33:43,497 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 16:33:43,497 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 16:33:43,498 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 16:33:43,499 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 16:33:43,499 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 16:33:43,499 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 16:33:43,500 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 16:33:43,502 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 16:33:43,502 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 16:33:43,502 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 16:33:43,503 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 16:33:43,504 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 16:33:43,504 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 16:33:43,504 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 16:33:43,505 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:33:43,507 - GeographGuardian - INFO - products.csv: ✓ (0.01 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,508 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 16:33:43,798 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 16:33:43,803 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 16:33:43,805 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 16:33:43,806 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 16:33:43,806 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 16:33:43,807 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 16:33:43,808 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 16:33:43,809 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 16:33:43,810 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 16:33:43,811 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 16:33:43,812 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 16:33:43,813 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 16:33:43,815 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 16:33:43,818 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 16:33:43,821 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:33:43,823 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 16:33:43,826 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:33:43,828 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 16:33:43,830 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:33:43,835 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 16:33:43,838 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:33:43,840 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 16:33:43,843 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:33:43,845 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 16:33:43,848 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 16:33:43,851 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 16:33:43,854 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 16:33:43,856 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 16:33:43,858 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - Total time: 0.06 seconds
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 16:33:43,859 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 16:33:43,860 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 16:33:43,970 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 16:33:43,970 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 16:33:43,970 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 16:33:43,971 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 16:33:43,972 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 16:33:43,973 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 16:33:43,974 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 16:33:43,975 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 16:33:43,976 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 16:33:43,976 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 16:33:43,976 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 16:33:43,977 - GeographGuardian - INFO - supplier_provides_part: 15 documents
+2025-02-20 16:33:43,978 - GeographGuardian - INFO - part_depends_on: 10 documents
+2025-02-20 16:33:43,978 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 16:33:43,980 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 16:33:43,980 - GeographGuardian - INFO - Total relationships: 15
+2025-02-20 16:33:43,980 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 16:33:43,980 - GeographGuardian - INFO - Unique parts: 12
+2025-02-20 16:33:43,980 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 16:33:43,982 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 16:33:43,982 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 16:33:43,982 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 16:33:43,982 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 16:33:43,982 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 16:33:43,982 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 16:33:43,982 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 16:33:43,983 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 16:33:43,983 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 16:33:43,983 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 16:33:43,983 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 16:33:43,983 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 16:33:43,983 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 16:36:10,875 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 16:36:10,875 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 16:36:10,876 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 16:36:10,879 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 16:36:10,879 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 16:36:10,879 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 16:36:10,880 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 16:36:10,882 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 16:36:10,882 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 16:36:10,882 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 16:36:10,883 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 16:36:10,884 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 16:36:10,884 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 16:36:10,885 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 16:36:10,885 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 16:36:10,887 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 16:36:10,887 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 16:36:10,887 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 16:36:10,887 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 16:36:10,890 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 16:36:10,890 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 16:36:10,890 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 16:36:10,891 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 16:36:10,893 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 16:36:10,893 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 16:36:10,893 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 16:36:10,893 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 16:36:10,895 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 16:36:10,895 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 16:36:10,895 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 16:36:10,896 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 16:36:10,898 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 16:36:10,898 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 16:36:10,898 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 16:36:10,898 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,901 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,902 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,902 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:10,902 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 16:36:11,217 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 16:36:11,221 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 16:36:11,222 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 16:36:11,224 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 16:36:11,225 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 16:36:11,226 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 16:36:11,227 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 16:36:11,228 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 16:36:11,229 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 16:36:11,230 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 16:36:11,231 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 16:36:11,232 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 16:36:11,234 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 16:36:11,236 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 16:36:11,239 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:36:11,242 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 16:36:11,245 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:36:11,247 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 16:36:11,250 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:36:11,254 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 16:36:11,257 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:36:11,260 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 16:36:11,263 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:36:11,265 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 16:36:11,268 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 16:36:11,272 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 16:36:11,275 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 16:36:11,276 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 16:36:11,279 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 16:36:11,279 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - Total time: 0.06 seconds
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 16:36:11,280 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 16:36:11,393 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 16:36:11,393 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 16:36:11,393 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 16:36:11,394 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 16:36:11,394 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 16:36:11,395 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 16:36:11,396 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 16:36:11,397 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 16:36:11,397 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 16:36:11,398 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 16:36:11,398 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 16:36:11,399 - GeographGuardian - INFO - supplier_provides_part: 15 documents
+2025-02-20 16:36:11,399 - GeographGuardian - INFO - part_depends_on: 10 documents
+2025-02-20 16:36:11,399 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 16:36:11,401 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 16:36:11,401 - GeographGuardian - INFO - Total relationships: 15
+2025-02-20 16:36:11,401 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 16:36:11,401 - GeographGuardian - INFO - Unique parts: 12
+2025-02-20 16:36:11,401 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 16:36:11,402 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 16:36:11,402 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 16:36:11,402 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 16:36:11,402 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 16:36:11,402 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 16:36:11,402 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 16:36:11,402 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 16:36:11,403 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 16:36:11,403 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 16:36:11,403 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 16:36:11,403 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 16:36:11,403 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 16:36:11,403 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 16:36:11,491 - GeographGuardian - INFO - === Validating Graph Setup ===
+2025-02-20 16:36:11,492 - GeographGuardian - ERROR - Graph 'supplychain' not found!
+2025-02-20 16:40:09,462 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 16:40:09,462 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 16:40:09,464 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 16:40:09,466 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 16:40:09,466 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 16:40:09,466 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 16:40:09,467 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 16:40:09,469 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 16:40:09,469 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 16:40:09,469 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 16:40:09,469 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 16:40:09,471 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 16:40:09,471 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 16:40:09,471 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 16:40:09,472 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 16:40:09,473 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 16:40:09,473 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 16:40:09,473 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 16:40:09,474 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 16:40:09,477 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 16:40:09,477 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 16:40:09,477 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 16:40:09,478 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 16:40:09,480 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 16:40:09,480 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 16:40:09,480 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 16:40:09,480 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 16:40:09,482 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 16:40:09,482 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 16:40:09,483 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 16:40:09,483 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 16:40:09,484 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 16:40:09,484 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 16:40:09,484 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 16:40:09,485 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:40:09,487 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,488 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 16:40:09,797 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 16:40:09,801 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 16:40:09,802 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 16:40:09,803 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 16:40:09,804 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 16:40:09,806 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 16:40:09,806 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 16:40:09,807 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 16:40:09,808 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 16:40:09,809 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 16:40:09,810 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 16:40:09,810 - GeographGuardian - INFO - Setting up graph structure...
+2025-02-20 16:40:09,822 - GeographGuardian - INFO - Successfully set up graph 'supplychain'
+2025-02-20 16:40:09,822 - GeographGuardian - INFO - Ingesting vertex collections...
+2025-02-20 16:40:09,824 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 16:40:09,826 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 16:40:09,828 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 16:40:09,830 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:40:09,833 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 16:40:09,835 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:40:09,837 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 16:40:09,840 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:40:09,844 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 16:40:09,847 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:40:09,849 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 16:40:09,852 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:40:09,855 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 16:40:09,857 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 16:40:09,860 - GeographGuardian - INFO - Ingesting edge collections...
+2025-02-20 16:40:09,861 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 16:40:09,863 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 16:40:09,864 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 16:40:09,866 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - All files ingested successfully
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - Total time: 0.07 seconds
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 16:40:09,867 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 16:40:09,974 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 16:40:09,974 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 16:40:09,974 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 16:40:09,975 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 16:40:09,976 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 16:40:09,976 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 16:40:09,977 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 16:40:09,978 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 16:40:09,978 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 16:40:09,979 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 16:40:09,979 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 16:40:09,980 - GeographGuardian - INFO - supplier_provides_part: 15 documents
+2025-02-20 16:40:09,981 - GeographGuardian - INFO - part_depends_on: 10 documents
+2025-02-20 16:40:09,981 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 16:40:09,981 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 16:40:09,981 - GeographGuardian - INFO - Total relationships: 15
+2025-02-20 16:40:09,981 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 16:40:09,982 - GeographGuardian - INFO - Unique parts: 12
+2025-02-20 16:40:09,982 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 16:40:09,982 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 16:40:09,982 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 16:40:09,983 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 16:40:09,983 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 16:40:09,983 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 16:40:09,983 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 16:40:09,983 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 16:40:09,983 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 16:40:09,984 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 16:40:09,984 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 16:40:09,984 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 16:40:09,984 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 16:40:09,984 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 16:40:10,070 - GeographGuardian - INFO - === Validating Graph Setup ===
+2025-02-20 16:40:10,072 - GeographGuardian - INFO - 
+Edge Definitions:
+2025-02-20 16:40:10,072 - GeographGuardian - ERROR - Validation failed: 'from'
+2025-02-20 16:41:35,434 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 16:41:35,434 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 16:41:35,436 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 16:41:35,438 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 16:41:35,438 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 16:41:35,438 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 16:41:35,439 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 16:41:35,441 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 16:41:35,441 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 16:41:35,441 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 16:41:35,441 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 16:41:35,443 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 16:41:35,443 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 16:41:35,443 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 16:41:35,444 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 16:41:35,446 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 16:41:35,446 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 16:41:35,446 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 16:41:35,447 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 16:41:35,450 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 16:41:35,450 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 16:41:35,450 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 16:41:35,450 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 16:41:35,452 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 16:41:35,452 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 16:41:35,452 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 16:41:35,453 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 16:41:35,454 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 16:41:35,454 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 16:41:35,454 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 16:41:35,455 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 16:41:35,456 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 16:41:35,456 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 16:41:35,456 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 16:41:35,457 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 16:41:35,459 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,460 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 16:41:35,785 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 16:41:35,790 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 16:41:35,792 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 16:41:35,793 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 16:41:35,794 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 16:41:35,794 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 16:41:35,795 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 16:41:35,796 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 16:41:35,797 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 16:41:35,798 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 16:41:35,799 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 16:41:35,799 - GeographGuardian - INFO - Setting up graph structure...
+2025-02-20 16:41:35,810 - GeographGuardian - INFO - Successfully set up graph 'supplychain'
+2025-02-20 16:41:35,810 - GeographGuardian - INFO - Ingesting vertex collections...
+2025-02-20 16:41:35,811 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 16:41:35,814 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 16:41:35,815 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 16:41:35,817 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:41:35,820 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 16:41:35,822 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:41:35,824 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 16:41:35,827 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:41:35,831 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 16:41:35,834 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:41:35,836 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 16:41:35,839 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:41:35,842 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 16:41:35,844 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 16:41:35,847 - GeographGuardian - INFO - Ingesting edge collections...
+2025-02-20 16:41:35,848 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 16:41:35,850 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 16:41:35,851 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 16:41:35,853 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - All files ingested successfully
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:41:35,854 - GeographGuardian - INFO - Total time: 0.07 seconds
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 16:41:35,855 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 16:41:35,964 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 16:41:35,964 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 16:41:35,964 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 16:41:35,965 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 16:41:35,966 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 16:41:35,967 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 16:41:35,968 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 16:41:35,969 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 16:41:35,969 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 16:41:35,970 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 16:41:35,970 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 16:41:35,971 - GeographGuardian - INFO - supplier_provides_part: 15 documents
+2025-02-20 16:41:35,971 - GeographGuardian - INFO - part_depends_on: 10 documents
+2025-02-20 16:41:35,971 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 16:41:35,972 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 16:41:35,972 - GeographGuardian - INFO - Total relationships: 15
+2025-02-20 16:41:35,973 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 16:41:35,973 - GeographGuardian - INFO - Unique parts: 12
+2025-02-20 16:41:35,973 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 16:41:35,974 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 16:41:35,974 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 16:41:35,974 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 16:41:35,974 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 16:41:35,974 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 16:41:35,974 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 16:41:35,974 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 16:41:35,975 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 16:41:35,975 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 16:41:35,975 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 16:41:35,975 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 16:41:35,975 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 16:41:35,975 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 16:41:36,062 - GeographGuardian - INFO - === Validating Graph Setup ===
+2025-02-20 16:41:36,063 - GeographGuardian - INFO - 
+Raw Edge Definitions:
+2025-02-20 16:41:36,064 - GeographGuardian - INFO - Type: <class 'list'>
+2025-02-20 16:41:36,064 - GeographGuardian - INFO - Content: [{'edge_collection': 'part_depends_on', 'from_vertex_collections': ['parts'], 'to_vertex_collections': ['parts']}, {'edge_collection': 'supplier_provides_part', 'from_vertex_collections': ['suppliers'], 'to_vertex_collections': ['parts']}]
+2025-02-20 16:41:36,064 - GeographGuardian - INFO - 
+Verifying Collections:
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: suppliers, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: supplier_provides_part, Type: edge
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: parts, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: risk_factors, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: products, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: inventory, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: part_depends_on, Type: edge
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: inventory_transactions, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - Collection: purchase_orders, Type: document
+2025-02-20 16:41:36,065 - GeographGuardian - INFO - 
+Attempting to get sample edges:
+2025-02-20 16:41:36,066 - GeographGuardian - ERROR - Error getting supplier_parts sample: 'Cursor' object has no attribute 'limit'
+2025-02-20 16:41:36,067 - GeographGuardian - ERROR - Error getting part_deps sample: 'Cursor' object has no attribute 'limit'
+2025-02-20 16:41:36,067 - GeographGuardian - INFO - 
+=== Debug Validation Complete ===
+2025-02-20 16:43:33,869 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 16:43:33,869 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 16:43:33,870 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 16:43:33,872 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 16:43:33,872 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 16:43:33,872 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 16:43:33,873 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 16:43:33,875 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 16:43:33,875 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 16:43:33,875 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 16:43:33,876 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 16:43:33,878 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 16:43:33,878 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 16:43:33,878 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 16:43:33,878 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 16:43:33,880 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 16:43:33,880 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 16:43:33,880 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 16:43:33,881 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 16:43:33,884 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 16:43:33,884 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 16:43:33,884 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 16:43:33,884 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 16:43:33,886 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 16:43:33,886 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 16:43:33,886 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 16:43:33,886 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 16:43:33,888 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 16:43:33,888 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 16:43:33,888 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 16:43:33,889 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 16:43:33,890 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 16:43:33,890 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 16:43:33,890 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 16:43:33,891 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:43:33,893 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:33,894 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 16:43:34,220 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 16:43:34,225 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 16:43:34,226 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 16:43:34,227 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 16:43:34,228 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 16:43:34,229 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 16:43:34,230 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 16:43:34,231 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 16:43:34,232 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 16:43:34,233 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 16:43:34,234 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 16:43:34,234 - GeographGuardian - INFO - Setting up graph structure...
+2025-02-20 16:43:34,245 - GeographGuardian - INFO - Successfully set up graph 'supplychain'
+2025-02-20 16:43:34,245 - GeographGuardian - INFO - Ingesting vertex collections...
+2025-02-20 16:43:34,246 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 16:43:34,249 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 16:43:34,250 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 16:43:34,252 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:43:34,254 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 16:43:34,257 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:43:34,259 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 16:43:34,262 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:43:34,267 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 16:43:34,270 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 16:43:34,272 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 16:43:34,276 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 16:43:34,278 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 16:43:34,281 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 16:43:34,284 - GeographGuardian - INFO - Ingesting edge collections...
+2025-02-20 16:43:34,285 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 16:43:34,287 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 16:43:34,289 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 16:43:34,291 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - All files ingested successfully
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - Successful: 9
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - Failed: 0
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - Total time: 0.07 seconds
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - ==================================================
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 16:43:34,292 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 16:43:34,400 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 16:43:34,400 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 16:43:34,400 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 16:43:34,402 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 16:43:34,403 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 16:43:34,405 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 16:43:34,406 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 16:43:34,407 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 16:43:34,408 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 16:43:34,409 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 16:43:34,409 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 16:43:34,410 - GeographGuardian - INFO - supplier_provides_part: 15 documents
+2025-02-20 16:43:34,411 - GeographGuardian - INFO - part_depends_on: 10 documents
+2025-02-20 16:43:34,412 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 16:43:34,413 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 16:43:34,413 - GeographGuardian - INFO - Total relationships: 15
+2025-02-20 16:43:34,413 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 16:43:34,413 - GeographGuardian - INFO - Unique parts: 12
+2025-02-20 16:43:34,413 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 16:43:34,414 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 16:43:34,414 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 16:43:34,414 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 16:43:34,414 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 16:43:34,414 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 16:43:34,414 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 16:43:34,414 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 16:43:34,415 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 16:43:34,415 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 16:43:34,415 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 16:43:34,415 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 16:43:34,415 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 16:43:34,415 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 16:43:34,500 - GeographGuardian - INFO - === Validating Graph Setup ===
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - 
+Edge Definitions:
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - 
+Edge Collection: part_depends_on
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - From Collections: ['parts']
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - To Collections: ['parts']
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - 
+Edge Collection: supplier_provides_part
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - From Collections: ['suppliers']
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - To Collections: ['parts']
+2025-02-20 16:43:34,502 - GeographGuardian - INFO - 
+Verifying Collections:
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: part_depends_on, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: inventory_transactions, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: suppliers, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: products, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: parts, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: supplier_provides_part, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: risk_factors, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: purchase_orders, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - Collection: inventory, Type: document
+2025-02-20 16:43:34,503 - GeographGuardian - INFO - 
+Validating Edge Data:
+2025-02-20 16:43:34,504 - GeographGuardian - INFO - 
+Supplier-Part Edge Sample:
+2025-02-20 16:43:34,504 - GeographGuardian - INFO - From: suppliers/SUP001
+2025-02-20 16:43:34,504 - GeographGuardian - INFO - To: parts/LID002
+2025-02-20 16:43:34,504 - GeographGuardian - INFO - Properties: ['supplier_id', 'part_id', 'is_primary_supplier', 'unit_cost', 'lead_time_days', 'minimum_order_qty']
+2025-02-20 16:43:34,505 - GeographGuardian - INFO - 
+Part Dependency Edge Sample:
+2025-02-20 16:43:34,505 - GeographGuardian - INFO - From: parts/LID001
+2025-02-20 16:43:34,505 - GeographGuardian - INFO - To: parts/CTR001
+2025-02-20 16:43:34,505 - GeographGuardian - INFO - Properties: ['part_id', 'dependent_part_id', 'dependency_type', 'description']
+2025-02-20 16:43:34,505 - GeographGuardian - INFO - 
+Validating Vertex Connections:
+2025-02-20 16:43:34,506 - GeographGuardian - INFO - Supplier Connection Sample: {'supplier': 'suppliers/SUP001', 'connected_parts': ['parts/LID002']}
+2025-02-20 16:43:34,506 - GeographGuardian - INFO - 
+=== Graph Validation Complete ===
+2025-02-20 21:18:45,216 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:18:45,216 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:18:45,222 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:18:45,227 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:18:45,227 - GeographGuardian - INFO - products.csv: ✓ (0.01s)
+2025-02-20 21:18:45,227 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:18:45,228 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:18:45,230 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:18:45,230 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:18:45,230 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:18:45,231 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:18:45,233 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:18:45,233 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:18:45,233 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:18:45,233 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:18:45,235 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:18:45,235 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:18:45,235 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:18:45,236 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:18:45,239 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:18:45,239 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:18:45,239 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:18:45,240 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:18:45,242 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:18:45,242 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:18:45,242 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:18:45,243 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:18:45,244 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:18:45,244 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:18:45,244 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:18:45,245 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:18:45,247 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:18:45,247 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:18:45,247 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:18:45,247 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - products.csv: ✓ (0.01 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:18:45,250 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,851 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:23:12,851 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:23:12,852 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:23:12,854 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:23:12,854 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:23:12,854 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:23:12,855 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:23:12,857 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:23:12,858 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:23:12,858 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:23:12,858 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:23:12,860 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:23:12,860 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:23:12,860 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:23:12,860 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:23:12,862 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:23:12,862 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:23:12,862 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:23:12,863 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:23:12,865 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:23:12,865 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:23:12,865 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:23:12,866 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:23:12,868 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:23:12,868 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:23:12,868 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:23:12,868 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:23:12,870 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:23:12,870 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:23:12,870 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:23:12,871 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:23:12,872 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:23:12,872 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:23:12,872 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:23:12,873 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:23:12,876 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:23:12,877 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,840 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:24:03,841 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:24:03,842 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:24:03,844 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:24:03,844 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:24:03,844 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:24:03,844 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:24:03,846 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:24:03,846 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:24:03,846 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:24:03,847 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:24:03,849 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:24:03,849 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:24:03,849 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:24:03,849 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:24:03,851 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:24:03,851 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:24:03,851 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:24:03,852 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:24:03,854 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:24:03,854 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:24:03,854 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:24:03,855 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:24:03,857 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:24:03,857 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:24:03,857 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:24:03,858 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:24:03,859 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:24:03,859 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:24:03,860 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:24:03,860 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:24:03,861 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:24:03,861 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:24:03,861 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:24:03,862 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:24:03,864 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:24:03,865 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,127 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:27:44,127 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:27:44,129 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:27:44,131 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:27:44,131 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:27:44,131 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:27:44,132 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:27:44,134 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:27:44,134 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:27:44,134 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:27:44,134 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:27:44,136 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:27:44,136 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:27:44,136 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:27:44,137 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:27:44,138 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:27:44,138 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:27:44,138 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:27:44,139 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:27:44,141 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:27:44,141 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:27:44,141 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:27:44,142 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:27:44,144 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:27:44,144 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:27:44,144 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:27:44,144 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:27:44,146 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:27:44,146 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:27:44,146 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:27:44,147 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:27:44,148 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:27:44,148 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:27:44,148 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:27:44,149 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,151 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:27:44,152 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,285 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:33:31,285 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:33:31,286 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:33:31,289 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:33:31,289 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:33:31,289 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:33:31,290 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:33:31,292 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:33:31,292 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:33:31,292 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:33:31,292 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:33:31,295 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:33:31,295 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:33:31,295 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:33:31,296 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:33:31,298 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:33:31,298 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:33:31,298 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:33:31,299 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:33:31,302 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:33:31,302 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:33:31,302 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:33:31,302 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:33:31,304 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:33:31,304 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:33:31,304 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:33:31,304 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:33:31,306 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:33:31,306 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:33:31,306 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:33:31,307 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:33:31,308 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:33:31,308 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:33:31,309 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:33:31,309 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:33:31,312 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,021 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:34:38,021 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:34:38,022 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:34:38,024 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:34:38,024 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:34:38,024 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:34:38,025 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:34:38,027 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:34:38,027 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:34:38,027 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:34:38,028 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:34:38,030 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:34:38,031 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:34:38,031 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:34:38,031 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:34:38,033 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:34:38,033 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:34:38,033 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:34:38,033 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:34:38,037 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:34:38,037 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:34:38,037 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:34:38,037 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:34:38,039 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:34:38,039 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:34:38,039 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:34:38,039 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:34:38,041 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:34:38,041 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:34:38,041 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:34:38,042 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:34:38,043 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:34:38,043 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:34:38,043 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:34:38,044 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:34:38,047 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,895 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:49:05,895 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:49:05,896 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:49:05,898 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:49:05,898 - GeographGuardian - INFO - products.csv: ✓ (0.00s)
+2025-02-20 21:49:05,898 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:49:05,899 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:49:05,901 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:49:05,901 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:49:05,901 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:49:05,901 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:49:05,903 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:49:05,903 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:49:05,903 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:49:05,904 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:49:05,905 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:49:05,905 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:49:05,905 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:49:05,906 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:49:05,909 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:49:05,909 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:49:05,909 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:49:05,910 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:49:05,911 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:49:05,911 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:49:05,911 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:49:05,912 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:49:05,914 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:49:05,914 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:49:05,914 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:49:05,914 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:49:05,916 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:49:05,916 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:49:05,916 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:49:05,917 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - Total time: 0.02 seconds
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:49:05,919 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - products.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:05,920 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:49:06,227 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 21:49:06,234 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 21:49:06,239 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 21:49:06,240 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 21:49:06,242 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 21:49:06,242 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 21:49:06,243 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 21:49:06,244 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 21:49:06,245 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 21:49:06,245 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 21:49:06,246 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 21:49:06,246 - GeographGuardian - INFO - Setting up graph structure...
+2025-02-20 21:49:06,257 - GeographGuardian - INFO - Successfully set up graph 'supplychain'
+2025-02-20 21:49:06,257 - GeographGuardian - INFO - Ingesting vertex collections...
+2025-02-20 21:49:06,259 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 21:49:06,260 - GeographGuardian - ERROR - Error ingesting products.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,261 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 21:49:06,263 - GeographGuardian - ERROR - Error ingesting product_parts.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,264 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 21:49:06,265 - GeographGuardian - ERROR - Error ingesting supplier_master.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,266 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 21:49:06,268 - GeographGuardian - ERROR - Error ingesting purchase_orders.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,269 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 21:49:06,270 - GeographGuardian - ERROR - Error ingesting supplier_risk_factors.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,271 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 21:49:06,274 - GeographGuardian - ERROR - Error ingesting inventory_current.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,274 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 21:49:06,276 - GeographGuardian - ERROR - Error ingesting inventory_transactions.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,276 - GeographGuardian - INFO - Ingesting edge collections...
+2025-02-20 21:49:06,277 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 21:49:06,279 - GeographGuardian - ERROR - Error ingesting supplier_parts.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,280 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 21:49:06,282 - GeographGuardian - ERROR - Error ingesting part_dependencies.csv: 'ArangoIngestor' object has no attribute 'batch_insert_documents'
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - All files ingested successfully
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - Successful: 0
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - Failed: 9
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - Total time: 0.05 seconds
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - products.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - product_parts.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - supplier_master.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - purchase_orders.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - supplier_risk_factors.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - inventory_current.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - inventory_transactions.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - supplier_parts.csv: ✗
+2025-02-20 21:49:06,282 - GeographGuardian - INFO - part_dependencies.csv: ✗
+2025-02-20 21:49:06,393 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 21:49:06,393 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 21:49:06,393 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 21:49:06,394 - GeographGuardian - INFO - products: 0 documents
+2025-02-20 21:49:06,395 - GeographGuardian - INFO - parts: 0 documents
+2025-02-20 21:49:06,396 - GeographGuardian - INFO - suppliers: 0 documents
+2025-02-20 21:49:06,396 - GeographGuardian - INFO - purchase_orders: 0 documents
+2025-02-20 21:49:06,397 - GeographGuardian - INFO - risk_factors: 0 documents
+2025-02-20 21:49:06,398 - GeographGuardian - INFO - inventory: 0 documents
+2025-02-20 21:49:06,398 - GeographGuardian - INFO - inventory_transactions: 0 documents
+2025-02-20 21:49:06,398 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 21:49:06,399 - GeographGuardian - INFO - supplier_provides_part: 0 documents
+2025-02-20 21:49:06,400 - GeographGuardian - INFO - part_depends_on: 0 documents
+2025-02-20 21:49:06,400 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 21:49:06,401 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 21:49:06,401 - GeographGuardian - INFO - Total relationships: 0
+2025-02-20 21:49:06,401 - GeographGuardian - INFO - Unique suppliers: 0
+2025-02-20 21:49:06,401 - GeographGuardian - INFO - Unique parts: 0
+2025-02-20 21:49:06,401 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 21:49:06,403 - GeographGuardian - INFO - Total POs: 0
+2025-02-20 21:49:06,403 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 21:49:06,403 - GeographGuardian - INFO - Undelivered Orders: 0
+2025-02-20 21:49:06,403 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 21:49:06,404 - GeographGuardian - INFO - Total Inventory Records: 0
+2025-02-20 21:49:06,404 - GeographGuardian - INFO - Low Stock Items: 0
+2025-02-20 21:49:06,404 - GeographGuardian - INFO - Total Transactions: 0
+2025-02-20 21:49:06,404 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 21:50:52,262 - GeographGuardian - INFO - Starting data processing pipeline...
+2025-02-20 21:50:52,264 - GeographGuardian - INFO - Processing products.csv...
+2025-02-20 21:50:52,268 - GeographGuardian - INFO - Read products.csv with 3 rows
+2025-02-20 21:50:52,272 - GeographGuardian - INFO - Saved processed products.csv
+2025-02-20 21:50:52,272 - GeographGuardian - INFO - products.csv: ✓ (0.01s)
+2025-02-20 21:50:52,272 - GeographGuardian - INFO - Processing product_parts.csv...
+2025-02-20 21:50:52,273 - GeographGuardian - INFO - Read product_parts.csv with 16 rows
+2025-02-20 21:50:52,275 - GeographGuardian - INFO - Saved processed product_parts.csv
+2025-02-20 21:50:52,275 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00s)
+2025-02-20 21:50:52,275 - GeographGuardian - INFO - Processing supplier_master.csv...
+2025-02-20 21:50:52,276 - GeographGuardian - INFO - Read supplier_master.csv with 15 rows
+2025-02-20 21:50:52,278 - GeographGuardian - INFO - Saved processed supplier_master.csv
+2025-02-20 21:50:52,278 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00s)
+2025-02-20 21:50:52,278 - GeographGuardian - INFO - Processing supplier_parts.csv...
+2025-02-20 21:50:52,279 - GeographGuardian - INFO - Read supplier_parts.csv with 24 rows
+2025-02-20 21:50:52,280 - GeographGuardian - INFO - Saved processed supplier_parts.csv
+2025-02-20 21:50:52,280 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00s)
+2025-02-20 21:50:52,280 - GeographGuardian - INFO - Processing purchase_orders.csv...
+2025-02-20 21:50:52,281 - GeographGuardian - INFO - Read purchase_orders.csv with 15 rows
+2025-02-20 21:50:52,284 - GeographGuardian - INFO - Saved processed purchase_orders.csv
+2025-02-20 21:50:52,284 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00s)
+2025-02-20 21:50:52,284 - GeographGuardian - INFO - Processing supplier_risk_factors.csv...
+2025-02-20 21:50:52,285 - GeographGuardian - INFO - Read supplier_risk_factors.csv with 15 rows
+2025-02-20 21:50:52,286 - GeographGuardian - INFO - Saved processed supplier_risk_factors.csv
+2025-02-20 21:50:52,286 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00s)
+2025-02-20 21:50:52,286 - GeographGuardian - INFO - Processing part_dependencies.csv...
+2025-02-20 21:50:52,287 - GeographGuardian - INFO - Read part_dependencies.csv with 14 rows
+2025-02-20 21:50:52,289 - GeographGuardian - INFO - Saved processed part_dependencies.csv
+2025-02-20 21:50:52,289 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00s)
+2025-02-20 21:50:52,289 - GeographGuardian - INFO - Processing inventory_current.csv...
+2025-02-20 21:50:52,290 - GeographGuardian - INFO - Read inventory_current.csv with 16 rows
+2025-02-20 21:50:52,292 - GeographGuardian - INFO - Saved processed inventory_current.csv
+2025-02-20 21:50:52,292 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00s)
+2025-02-20 21:50:52,292 - GeographGuardian - INFO - Processing inventory_transactions.csv...
+2025-02-20 21:50:52,293 - GeographGuardian - INFO - Read inventory_transactions.csv with 20 rows
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - Saved processed inventory_transactions.csv
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00s)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - 
+Processing Summary:
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - Total time: 0.03 seconds
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - products.csv: ✓ (0.01 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - product_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - supplier_master.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - supplier_parts.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - purchase_orders.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,295 - GeographGuardian - INFO - part_dependencies.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,296 - GeographGuardian - INFO - inventory_current.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,296 - GeographGuardian - INFO - inventory_transactions.csv: ✓ (0.00 seconds)
+2025-02-20 21:50:52,628 - GeographGuardian - INFO - Starting ArangoDB ingestion pipeline...
+2025-02-20 21:50:52,635 - GeographGuardian - INFO - Dropping collection: supplier_provides_part
+2025-02-20 21:50:52,636 - GeographGuardian - INFO - Dropping collection: parts
+2025-02-20 21:50:52,637 - GeographGuardian - INFO - Dropping collection: part_depends_on
+2025-02-20 21:50:52,638 - GeographGuardian - INFO - Dropping collection: risk_factors
+2025-02-20 21:50:52,639 - GeographGuardian - INFO - Dropping collection: inventory
+2025-02-20 21:50:52,639 - GeographGuardian - INFO - Dropping collection: products
+2025-02-20 21:50:52,640 - GeographGuardian - INFO - Dropping collection: suppliers
+2025-02-20 21:50:52,641 - GeographGuardian - INFO - Dropping collection: purchase_orders
+2025-02-20 21:50:52,642 - GeographGuardian - INFO - Dropping collection: inventory_transactions
+2025-02-20 21:50:52,643 - GeographGuardian - INFO - Database cleanup completed successfully
+2025-02-20 21:50:52,643 - GeographGuardian - INFO - Setting up graph structure...
+2025-02-20 21:50:52,653 - GeographGuardian - INFO - Successfully set up graph 'supplychain'
+2025-02-20 21:50:52,653 - GeographGuardian - INFO - Ingesting vertex collections...
+2025-02-20 21:50:52,654 - GeographGuardian - INFO - Read processed products.csv with 3 rows
+2025-02-20 21:50:52,657 - GeographGuardian - INFO - Inserted batch of 3 documents
+2025-02-20 21:50:52,658 - GeographGuardian - INFO - Read processed product_parts.csv with 16 rows
+2025-02-20 21:50:52,660 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 21:50:52,661 - GeographGuardian - INFO - Read processed supplier_master.csv with 15 rows
+2025-02-20 21:50:52,663 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 21:50:52,664 - GeographGuardian - INFO - Read processed purchase_orders.csv with 15 rows
+2025-02-20 21:50:52,667 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 21:50:52,668 - GeographGuardian - INFO - Read processed supplier_risk_factors.csv with 15 rows
+2025-02-20 21:50:52,671 - GeographGuardian - INFO - Inserted batch of 15 documents
+2025-02-20 21:50:52,671 - GeographGuardian - INFO - Read processed inventory_current.csv with 16 rows
+2025-02-20 21:50:52,674 - GeographGuardian - INFO - Inserted batch of 16 documents
+2025-02-20 21:50:52,674 - GeographGuardian - INFO - Read processed inventory_transactions.csv with 20 rows
+2025-02-20 21:50:52,677 - GeographGuardian - INFO - Inserted batch of 20 documents
+2025-02-20 21:50:52,677 - GeographGuardian - INFO - Ingesting edge collections...
+2025-02-20 21:50:52,678 - GeographGuardian - INFO - Read processed supplier_parts.csv with 24 rows
+2025-02-20 21:50:52,681 - GeographGuardian - INFO - Inserted batch of 24 documents
+2025-02-20 21:50:52,682 - GeographGuardian - INFO - Edge verification successful for supplier_provides_part
+2025-02-20 21:50:52,682 - GeographGuardian - INFO - Sample edge: {'_from': 'suppliers/SUP001', '_to': 'parts/LID001', '_key': 'SUP001_LID001'}
+2025-02-20 21:50:52,683 - GeographGuardian - INFO - Read processed part_dependencies.csv with 14 rows
+2025-02-20 21:50:52,685 - GeographGuardian - INFO - Inserted batch of 14 documents
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Edge verification successful for part_depends_on
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Sample edge: {'_from': 'parts/LID001', '_to': 'parts/GPU001', '_key': 'LID001_GPU001'}
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - All files ingested successfully
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - 
+Ingestion Summary:
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Total files processed: 9
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Successful: 9
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Failed: 0
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - Total time: 0.06 seconds
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - 
+Detailed Results:
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - ==================================================
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - products.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - product_parts.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - supplier_master.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - purchase_orders.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - supplier_risk_factors.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - inventory_current.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - inventory_transactions.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - supplier_parts.csv: ✓
+2025-02-20 21:50:52,686 - GeographGuardian - INFO - part_dependencies.csv: ✓
+2025-02-20 21:50:52,798 - GeographGuardian - INFO - Starting Data Validation...
+2025-02-20 21:50:52,798 - GeographGuardian - INFO - 
+=== Collection Counts ===
+2025-02-20 21:50:52,798 - GeographGuardian - INFO - 
+Vertices:
+2025-02-20 21:50:52,799 - GeographGuardian - INFO - products: 3 documents
+2025-02-20 21:50:52,800 - GeographGuardian - INFO - parts: 16 documents
+2025-02-20 21:50:52,801 - GeographGuardian - INFO - suppliers: 15 documents
+2025-02-20 21:50:52,802 - GeographGuardian - INFO - purchase_orders: 15 documents
+2025-02-20 21:50:52,803 - GeographGuardian - INFO - risk_factors: 15 documents
+2025-02-20 21:50:52,803 - GeographGuardian - INFO - inventory: 16 documents
+2025-02-20 21:50:52,804 - GeographGuardian - INFO - inventory_transactions: 20 documents
+2025-02-20 21:50:52,804 - GeographGuardian - INFO - 
+Edges:
+2025-02-20 21:50:52,805 - GeographGuardian - INFO - supplier_provides_part: 24 documents
+2025-02-20 21:50:52,806 - GeographGuardian - INFO - part_depends_on: 14 documents
+2025-02-20 21:50:52,806 - GeographGuardian - INFO - 
+=== Relationship Validation ===
+2025-02-20 21:50:52,808 - GeographGuardian - INFO - Supplier-Part Relationships:
+2025-02-20 21:50:52,808 - GeographGuardian - INFO - Total relationships: 24
+2025-02-20 21:50:52,808 - GeographGuardian - INFO - Unique suppliers: 15
+2025-02-20 21:50:52,808 - GeographGuardian - INFO - Unique parts: 15
+2025-02-20 21:50:52,808 - GeographGuardian - INFO - 
+=== Purchase Orders Validation ===
+2025-02-20 21:50:52,809 - GeographGuardian - INFO - Total POs: 15
+2025-02-20 21:50:52,809 - GeographGuardian - INFO - Status Distribution:
+2025-02-20 21:50:52,809 - GeographGuardian - INFO -   DELAYED: 1
+2025-02-20 21:50:52,809 - GeographGuardian - INFO -   DELIVERED: 6
+2025-02-20 21:50:52,809 - GeographGuardian - INFO -   IN_TRANSIT: 8
+2025-02-20 21:50:52,809 - GeographGuardian - INFO - Undelivered Orders: 9
+2025-02-20 21:50:52,809 - GeographGuardian - INFO - 
+=== Inventory Validation ===
+2025-02-20 21:50:52,810 - GeographGuardian - INFO - Total Inventory Records: 16
+2025-02-20 21:50:52,810 - GeographGuardian - INFO - Low Stock Items: 16
+2025-02-20 21:50:52,810 - GeographGuardian - INFO - Total Transactions: 20
+2025-02-20 21:50:52,810 - GeographGuardian - INFO - Transaction Types:
+2025-02-20 21:50:52,810 - GeographGuardian - INFO -   ISSUE: 13
+2025-02-20 21:50:52,810 - GeographGuardian - INFO -   RECEIPT: 7
+2025-02-20 21:53:02,165 - GeographGuardian - INFO - 
+Validating edge collection: supplier_provides_part
+2025-02-20 21:53:02,167 - GeographGuardian - INFO - Total edges: 24
+2025-02-20 21:53:02,168 - GeographGuardian - INFO - Sample edge structure:
+2025-02-20 21:53:02,168 - GeographGuardian - INFO -   _from: suppliers/SUP001
+2025-02-20 21:53:02,168 - GeographGuardian - INFO -   _to: parts/LID001
+2025-02-20 21:53:02,168 - GeographGuardian - INFO - From vertex exists: True
+2025-02-20 21:53:02,168 - GeographGuardian - INFO - To vertex exists: True
+2025-02-20 21:54:22,394 - GeographGuardian - INFO - 
+Validating edge collection: supplier_provides_part
+2025-02-20 21:54:22,397 - GeographGuardian - INFO - Total edges: 24
+2025-02-20 21:54:22,398 - GeographGuardian - INFO - Sample edge structure:
+2025-02-20 21:54:22,398 - GeographGuardian - INFO -   _from: suppliers/SUP001
+2025-02-20 21:54:22,398 - GeographGuardian - INFO -   _to: parts/LID001
+2025-02-20 21:54:22,398 - GeographGuardian - INFO - From vertex exists: True
+2025-02-20 21:54:22,398 - GeographGuardian - INFO - To vertex exists: True
+2025-02-20 21:54:22,401 - GeographGuardian - INFO - 
+Validation Results for supplier_provides_part:
+2025-02-20 21:54:22,401 - GeographGuardian - INFO - Total Edges: 24
+2025-02-20 21:54:22,401 - GeographGuardian - INFO - Invalid Edges: 0
+2025-02-20 21:54:22,401 - GeographGuardian - INFO - All edges are valid!
+2025-02-20 21:54:22,401 - GeographGuardian - INFO - 
+Validating edge collection: part_depends_on
+2025-02-20 21:54:22,403 - GeographGuardian - INFO - Total edges: 14
+2025-02-20 21:54:22,404 - GeographGuardian - INFO - Sample edge structure:
+2025-02-20 21:54:22,404 - GeographGuardian - INFO -   _from: parts/LID001
+2025-02-20 21:54:22,404 - GeographGuardian - INFO -   _to: parts/GPU001
+2025-02-20 21:54:22,404 - GeographGuardian - INFO - From vertex exists: True
+2025-02-20 21:54:22,404 - GeographGuardian - INFO - To vertex exists: True
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - 
+Validation Results for part_depends_on:
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - Total Edges: 14
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - Invalid Edges: 0
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - All edges are valid!
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - 
+=== Edge Validation Summary ===
+2025-02-20 21:54:22,405 - GeographGuardian - INFO - supplier_provides_part: ✓
+2025-02-20 21:54:22,406 - GeographGuardian - INFO -   Total Edges: 24
+2025-02-20 21:54:22,406 - GeographGuardian - INFO -   Invalid Edges: 0
+2025-02-20 21:54:22,406 - GeographGuardian - INFO - part_depends_on: ✓
+2025-02-20 21:54:22,406 - GeographGuardian - INFO -   Total Edges: 14
+2025-02-20 21:54:22,406 - GeographGuardian - INFO -   Invalid Edges: 0

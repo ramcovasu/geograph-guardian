@@ -1,0 +1,17 @@
+part_id,part_name,part_category,criticality_level,description
+LID001,LIDAR-X1,SENSOR,HIGH,High-precision LiDAR sensor for navigation
+LID002,LIDAR-X2,SENSOR,HIGH,Advanced LiDAR sensor with extended range
+CAM001,HD-CAMERA-V2,SENSOR,HIGH,HD Camera module for visual recognition
+CAM002,4K-CAMERA-PRO,SENSOR,HIGH,4K Camera module with night vision
+INF001,IR-SENSOR-PRO,SENSOR,MEDIUM,Infrared sensor for heat detection
+GPU001,GPU-RTX-A1,COMPUTING,HIGH,GPU module for vision processing
+GPU002,GPU-RTX-A2,COMPUTING,HIGH,Advanced GPU module for AI processing
+CTR001,CONTROL-UNIT-X,COMPUTING,HIGH,Main control unit
+CTR002,CONTROL-UNIT-PRO,COMPUTING,HIGH,Advanced control unit with redundancy
+MOT001,DRIVE-MOTOR-V1,MOTION,HIGH,Primary drive motor
+MOT002,SERVO-PRO-X1,MOTION,MEDIUM,Precision servo motor
+BAT001,BATTERY-PACK-V1,POWER,HIGH,Main battery unit - 8 hour runtime
+BAT002,BATTERY-PACK-PRO,POWER,HIGH,Extended battery unit - 12 hour runtime
+PWR001,POWER-CONTROL-V1,POWER,MEDIUM,Main power management unit
+CHS001,CHASSIS-BASE,STRUCTURAL,MEDIUM,Base chassis frame
+JNT001,JOINT-SYSTEM-V1,STRUCTURAL,MEDIUM,Primary joint mechanism

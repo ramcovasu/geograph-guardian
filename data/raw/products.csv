@@ -1,0 +1,4 @@
+product_id,product_name,product_category,description
+OPTM001,OPTIMUS-V1,AUTONOMOUS_ROBOT,"Industrial Autonomous Robot - Base Model"
+OPTM002,OPTIMUS-V1-PRO,AUTONOMOUS_ROBOT,"Industrial Autonomous Robot - Professional Model with Advanced Sensors"
+OPTM003,OPTIMUS-V1-LITE,AUTONOMOUS_ROBOT,"Industrial Autonomous Robot - Compact Model"

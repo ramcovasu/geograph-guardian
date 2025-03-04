@@ -1,0 +1,31 @@
+# Core dependencies
+python-arango>=7.5.0
+pyyaml>=6.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Graph processing
+networkx>=3.2
+# GPU acceleration (commented as they require CUDA installation)
+rapids-core-csp>=23.12
+cudf>=23.12
+cugraph>=23.12
+
+# LLM and agents
+langchain>=0.1.0
+langchain-experimental>=0.0.47
+langgraph>=0.0.15
+langchain-community>=0.3.17
+google-generativeai>=0.3.0  # For Gemini API
+
+# Web interface
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Weather module
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Visualization helpers
+graphistry>=0.29.0
+xarray-spatial>=0.3.0

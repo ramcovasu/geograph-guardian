@@ -1,0 +1,170 @@
+{
+  "USA": {
+    "name": "United States",
+    "code": "US",
+    "lat": 37.0902,
+    "lon": -95.7129
+  },
+  "CHINA": {
+    "name": "China",
+    "code": "CN",
+    "lat": 35.8617,
+    "lon": 104.1954
+  },
+  "INDIA": {
+    "name": "India",
+    "code": "IN",
+    "lat": 20.5937,
+    "lon": 78.9629
+  },
+  "JAPAN": {
+    "name": "Japan",
+    "code": "JP",
+    "lat": 36.2048,
+    "lon": 138.2529
+  },
+  "GERMANY": {
+    "name": "Germany",
+    "code": "DE",
+    "lat": 51.1657,
+    "lon": 10.4515
+  },
+  "UK": {
+    "name": "United Kingdom",
+    "code": "GB",
+    "lat": 55.3781,
+    "lon": -3.436
+  },
+  "FRANCE": {
+    "name": "France",
+    "code": "FR",
+    "lat": 46.2276,
+    "lon": 2.2137
+  },
+  "ITALY": {
+    "name": "Italy",
+    "code": "IT",
+    "lat": 41.8719,
+    "lon": 12.5674
+  },
+  "BRAZIL": {
+    "name": "Brazil",
+    "code": "BR",
+    "lat": -14.235,
+    "lon": -51.9253
+  },
+  "CANADA": {
+    "name": "Canada",
+    "code": "CA",
+    "lat": 56.1304,
+    "lon": -106.3468
+  },
+  "AUSTRALIA": {
+    "name": "Australia",
+    "code": "AU",
+    "lat": -25.2744,
+    "lon": 133.7751
+  },
+  "RUSSIA": {
+    "name": "Russia",
+    "code": "RU",
+    "lat": 61.524,
+    "lon": 105.3188
+  },
+  "SOUTH KOREA": {
+    "name": "South Korea",
+    "code": "KR",
+    "lat": 35.9078,
+    "lon": 127.7669
+  },
+  "SPAIN": {
+    "name": "Spain",
+    "code": "ES",
+    "lat": 40.4637,
+    "lon": -3.7492
+  },
+  "MEXICO": {
+    "name": "Mexico",
+    "code": "MX",
+    "lat": 23.6345,
+    "lon": -102.5528
+  },
+  "INDONESIA": {
+    "name": "Indonesia",
+    "code": "ID",
+    "lat": -0.7893,
+    "lon": 113.9213
+  },
+  "NETHERLANDS": {
+    "name": "Netherlands",
+    "code": "NL",
+    "lat": 52.1326,
+    "lon": 5.2913
+  },
+  "SAUDI ARABIA": {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "lat": 23.8859,
+    "lon": 45.0792
+  },
+  "TURKEY": {
+    "name": "Turkey",
+    "code": "TR",
+    "lat": 38.9637,
+    "lon": 35.2433
+  },
+  "SWITZERLAND": {
+    "name": "Switzerland",
+    "code": "CH",
+    "lat": 46.8182,
+    "lon": 8.2275
+  },
+  "POLAND": {
+    "name": "Poland",
+    "code": "PL",
+    "lat": 51.9194,
+    "lon": 19.1451
+  },
+  "THAILAND": {
+    "name": "Thailand",
+    "code": "TH",
+    "lat": 15.87,
+    "lon": 100.9925
+  },
+  "SWEDEN": {
+    "name": "Sweden",
+    "code": "SE",
+    "lat": 60.1282,
+    "lon": 18.6435
+  },
+  "BELGIUM": {
+    "name": "Belgium",
+    "code": "BE",
+    "lat": 50.5039,
+    "lon": 4.4699
+  },
+  "MALAYSIA": {
+    "name": "Malaysia",
+    "code": "MY",
+    "lat": 4.2105,
+    "lon": 101.9758
+  },
+  "SINGAPORE": {
+    "name": "Singapore",
+    "code": "SG",
+    "lat": 1.3521,
+    "lon": 103.8198
+  },
+  "VIETNAM": {
+    "name": "Vietnam",
+    "code": "VN",
+    "lat": 14.0583,
+    "lon": 108.2772
+  },
+  "ISRAEL": {
+    "name": "Israel",
+    "code": "IL",
+    "lat": 31.0461,
+    "lon": 34.8516
+  }
+}

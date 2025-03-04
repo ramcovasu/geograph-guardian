@@ -1,0 +1,272 @@
+2025-02-25 21:38:13,838 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:38:13,860 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:38:45,418 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:38:45,447 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:42:32,450 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:42:32,480 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:42:42,810 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:42:42,838 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:42:42,846 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:42:43,010 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:42:43,024 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:42:43,024 - GeographGuardian - ERROR - Louvain community detection failed: input graph must be undirected
+2025-02-25 21:42:43,029 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 103, in run_community_detection
+    louvain_parts, modularity = cugraph.louvain(G)
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/community/louvain.py", line 137, in louvain
+    raise ValueError("input graph must be undirected")
+ValueError: input graph must be undirected
+
+2025-02-25 21:52:13,622 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:13,622 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:13,646 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:13,646 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:21,507 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:21,507 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:21,534 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:21,534 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:21,538 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:52:21,538 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:52:21,565 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:52:21,565 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:52:21,575 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:52:21,575 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:52:21,575 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:52:21,575 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:52:21,584 - GeographGuardian - ERROR - Louvain community detection failed: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+2025-02-25 21:52:21,584 - GeographGuardian - ERROR - Louvain community detection failed: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+2025-02-25 21:52:21,588 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 114, in run_community_detection
+    undirected_G.from_cudf_edgelist(edges, source='src', destination='dst')
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_classes.py", line 195, in from_cudf_edgelist
+    self._Impl._simpleGraphImpl__from_edgelist(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_implementation/simpleGraph.py", line 180, in __from_edgelist
+    raise ValueError(
+ValueError: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+
+2025-02-25 21:52:21,588 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 114, in run_community_detection
+    undirected_G.from_cudf_edgelist(edges, source='src', destination='dst')
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_classes.py", line 195, in from_cudf_edgelist
+    self._Impl._simpleGraphImpl__from_edgelist(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_implementation/simpleGraph.py", line 180, in __from_edgelist
+    raise ValueError(
+ValueError: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+
+2025-02-25 21:52:28,385 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:28,385 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:28,411 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:28,411 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:32,625 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:32,625 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:32,652 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:32,652 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:52:32,655 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:52:32,655 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:52:32,683 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:52:32,683 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:52:32,692 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:52:32,692 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:52:32,692 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:52:32,692 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:52:32,700 - GeographGuardian - ERROR - Louvain community detection failed: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+2025-02-25 21:52:32,700 - GeographGuardian - ERROR - Louvain community detection failed: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+2025-02-25 21:52:32,700 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 114, in run_community_detection
+    undirected_G.from_cudf_edgelist(edges, source='src', destination='dst')
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_classes.py", line 195, in from_cudf_edgelist
+    self._Impl._simpleGraphImpl__from_edgelist(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_implementation/simpleGraph.py", line 180, in __from_edgelist
+    raise ValueError(
+ValueError: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+
+2025-02-25 21:52:32,700 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 114, in run_community_detection
+    undirected_G.from_cudf_edgelist(edges, source='src', destination='dst')
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_classes.py", line 195, in from_cudf_edgelist
+    self._Impl._simpleGraphImpl__from_edgelist(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_implementation/simpleGraph.py", line 180, in __from_edgelist
+    raise ValueError(
+ValueError: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+
+2025-02-25 21:53:36,685 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:53:36,709 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:53:42,588 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:53:42,616 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:53:42,620 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:53:42,728 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:53:42,734 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:53:42,735 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:53:42,739 - GeographGuardian - ERROR - Louvain community detection failed: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+2025-02-25 21:53:42,740 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/cugraph_processor.py", line 114, in run_community_detection
+    undirected_G.from_cudf_edgelist(edges, source='src', destination='dst')
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_classes.py", line 195, in from_cudf_edgelist
+    self._Impl._simpleGraphImpl__from_edgelist(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/cugraph/structure/graph_implementation/simpleGraph.py", line 180, in __from_edgelist
+    raise ValueError(
+ValueError: source column names and/or destination column names not found in input. Recheck the source and destination parameters
+
+2025-02-25 21:55:41,749 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:41,749 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:41,773 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:41,773 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:48,547 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:48,547 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:48,575 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:48,575 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 21:55:48,578 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:55:48,578 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 21:55:48,621 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:55:48,621 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 21:55:48,630 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:55:48,630 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 21:55:48,631 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:55:48,631 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 21:55:48,640 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 21:55:48,640 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 21:55:48,641 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 21:55:48,641 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 21:55:48,771 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 21:55:48,771 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:04,378 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:04,378 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:04,378 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:04,402 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:04,402 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:04,402 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,030 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,030 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,030 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,058 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,058 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,058 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:10,061 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:10,061 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:10,061 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:10,090 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:10,090 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:10,090 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:10,100 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:10,100 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:10,100 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:10,101 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:10,101 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:10,101 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:10,109 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:10,109 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:10,109 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:10,109 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:10,109 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:10,109 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:10,159 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:10,159 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:10,159 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:44,514 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:44,514 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:44,514 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:44,540 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:44,540 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:44,540 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,951 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,951 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,951 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,977 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,977 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,977 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:08:48,981 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:48,981 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:48,981 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:08:49,017 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:49,017 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:49,017 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:08:49,026 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:49,026 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:49,026 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:08:49,027 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:49,027 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:49,027 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:08:49,034 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:49,034 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:49,034 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:08:49,034 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:49,034 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:49,034 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:08:49,091 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:49,091 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:08:49,091 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:33:41,676 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:33:41,701 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:33:45,900 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:33:45,925 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:33:45,930 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:33:46,042 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:33:46,048 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:33:46,048 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:33:46,052 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:33:46,053 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:33:46,103 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:33:46,116 - GeographGuardian - ERROR - Error visualizing communities: 'GraphVisualizer' object has no attribute '_identify_key_entities'
+2025-02-25 22:33:46,116 - GeographGuardian - ERROR - Error in graph analytics: name 'traceback' is not defined
+2025-02-25 22:33:46,119 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/visualization.py", line 162, in visualize_communities
+    community_key_entities = self._identify_key_entities(communities, G)
+AttributeError: 'GraphVisualizer' object has no attribute '_identify_key_entities'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/streamlit/graph_analytics_ui.py", line 143, in render_graph_analytics_ui
+    fig = visualizer.visualize_communities(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/graph_analytics/visualization.py", line 200, in visualize_communities
+    self.logger.error(traceback.format_exc())
+NameError: name 'traceback' is not defined
+
+2025-02-25 22:40:12,495 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:40:12,519 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:40:19,597 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:40:19,623 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:40:19,628 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:40:19,746 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:40:19,753 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:40:19,753 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:40:19,760 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:40:19,760 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:40:19,831 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:40:19,849 - GeographGuardian - WARNING - Could not identify key entities: 'GraphVisualizer' object has no attribute '_identify_key_entities'
+2025-02-25 22:40:28,706 - GeographGuardian - ERROR - Error in graph analytics: The `figure_or_data` positional argument must be `dict`-like, `list`-like, or an instance of plotly.graph_objs.Figure
+2025-02-25 22:40:28,709 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/streamlit/graph_analytics_ui.py", line 202, in render_graph_analytics_ui
+    st.plotly_chart(fig, use_container_width=True)
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/streamlit/elements/plotly_chart.py", line 487, in plotly_chart
+    figure = plotly.tools.return_figure_from_figure_or_data(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/plotly/tools.py", line 538, in return_figure_from_figure_or_data
+    raise exceptions.PlotlyError(
+_plotly_utils.exceptions.PlotlyError: The `figure_or_data` positional argument must be `dict`-like, `list`-like, or an instance of plotly.graph_objs.Figure
+
+2025-02-25 22:43:57,235 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:43:57,261 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:43:59,945 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:43:59,970 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-25 22:43:59,975 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-25 22:44:00,114 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-25 22:44:00,119 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-25 22:44:00,120 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-25 22:44:00,123 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-25 22:44:00,123 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-25 22:44:00,173 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-25 22:44:00,179 - GeographGuardian - WARNING - Could not identify key entities: could not convert string to float: 'A'
+2025-02-25 22:44:09,765 - GeographGuardian - ERROR - Error in graph analytics: The `figure_or_data` positional argument must be `dict`-like, `list`-like, or an instance of plotly.graph_objs.Figure
+2025-02-25 22:44:09,767 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/streamlit/graph_analytics_ui.py", line 202, in render_graph_analytics_ui
+    st.plotly_chart(fig, use_container_width=True)
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/streamlit/runtime/metrics_util.py", line 410, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/streamlit/elements/plotly_chart.py", line 487, in plotly_chart
+    figure = plotly.tools.return_figure_from_figure_or_data(
+  File "/home/ramcovasu/miniconda3/envs/geograph/lib/python3.10/site-packages/plotly/tools.py", line 538, in return_figure_from_figure_or_data
+    raise exceptions.PlotlyError(
+_plotly_utils.exceptions.PlotlyError: The `figure_or_data` positional argument must be `dict`-like, `list`-like, or an instance of plotly.graph_objs.Figure
+

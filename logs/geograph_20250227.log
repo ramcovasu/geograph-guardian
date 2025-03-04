@@ -1,0 +1,29 @@
+2025-02-27 09:40:34,390 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:40:34,413 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:44:02,047 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:44:02,081 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:44:49,166 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:44:49,198 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:45:56,164 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:45:56,198 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:45:56,207 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-27 09:45:56,486 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-27 09:45:56,493 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-27 09:45:56,494 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-02-27 09:45:56,501 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-02-27 09:45:56,501 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-02-27 09:45:56,618 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-02-27 09:45:56,625 - GeographGuardian - WARNING - Could not identify key entities: could not convert string to float: 'A'
+2025-02-27 09:46:41,384 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:41,409 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:43,572 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:43,597 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:45,522 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:45,558 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-02-27 09:46:45,563 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-02-27 09:46:45,670 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-02-27 09:46:45,693 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-02-27 09:46:45,745 - GeographGuardian - INFO - Graph has 30 vertices
+2025-02-27 09:46:45,746 - GeographGuardian - INFO - Running betweenness centrality with k=30
+2025-02-27 09:46:45,860 - GeographGuardian - INFO - Betweenness centrality computed successfully
+2025-02-27 09:46:45,862 - GeographGuardian - INFO - Loaded 15 supplier names

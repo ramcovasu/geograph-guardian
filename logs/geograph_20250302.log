@@ -1,0 +1,949 @@
+2025-03-02 12:32:10,318 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:32:10,347 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:34:40,293 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:34:40,319 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:35:20,669 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:35:20,699 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:35:55,820 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:35:55,849 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:36:10,490 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:36:10,516 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:36:14,776 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:36:14,805 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 12:36:14,816 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-03-02 12:36:15,032 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-03-02 12:36:15,046 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-03-02 12:36:15,046 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-03-02 12:36:15,052 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-03-02 12:36:15,052 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-03-02 12:36:15,181 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-03-02 12:36:15,191 - GeographGuardian - WARNING - Could not identify key entities: could not convert string to float: 'A'
+2025-03-02 19:09:55,563 - GeographGuardian - INFO - Starting weather database setup
+2025-03-02 19:09:55,572 - GeographGuardian - INFO - Database connection successful
+2025-03-02 19:09:55,572 - GeographGuardian - INFO - Setting up weather collections...
+2025-03-02 19:09:55,574 - GeographGuardian - INFO - Created collection: weather_events
+2025-03-02 19:09:55,576 - GeographGuardian - INFO - Created collection: supplier_locations
+2025-03-02 19:09:55,578 - GeographGuardian - INFO - Created collection: weather_impact_assessments
+2025-03-02 19:09:55,580 - GeographGuardian - INFO - Created collection: supplier_affected_by_weather
+2025-03-02 19:09:55,583 - GeographGuardian - INFO - Created index on weather_events.event_type
+2025-03-02 19:09:55,584 - GeographGuardian - INFO - Created index on weather_events.severity
+2025-03-02 19:09:55,585 - GeographGuardian - INFO - Created index on weather_events.timestamp
+2025-03-02 19:09:55,586 - GeographGuardian - INFO - Created index on weather_events.country_code
+2025-03-02 19:09:55,587 - GeographGuardian - INFO - Created geo index on weather_events.coordinates
+2025-03-02 19:09:55,589 - GeographGuardian - INFO - Created index on supplier_locations.country
+2025-03-02 19:09:55,590 - GeographGuardian - INFO - Created index on supplier_locations.region
+2025-03-02 19:09:55,591 - GeographGuardian - INFO - Created geo index on supplier_locations.coordinates
+2025-03-02 19:09:55,592 - GeographGuardian - INFO - Created index on weather_impact_assessments.supplier_id
+2025-03-02 19:09:55,593 - GeographGuardian - INFO - Created index on weather_impact_assessments.impact_score
+2025-03-02 19:09:55,594 - GeographGuardian - INFO - Created index on weather_impact_assessments.assessment_date
+2025-03-02 19:09:55,598 - GeographGuardian - INFO - Added edge definition supplier_affected_by_weather to graph supplychain
+2025-03-02 19:09:55,599 - GeographGuardian - INFO - Successfully set up weather collections
+2025-03-02 19:09:55,599 - GeographGuardian - INFO - Weather database setup completed successfully
+2025-03-02 19:10:50,564 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:10:50,593 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:10:50,596 - GeographGuardian - INFO - Country mappings file not found. Creating default data.
+2025-03-02 19:10:50,597 - GeographGuardian - INFO - Created default country mappings with 28 entries
+2025-03-02 19:10:50,597 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:16:23,824 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:16:23,860 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:16:23,864 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:21:23,297 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:21:23,342 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:21:23,345 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:21:39,122 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:21:39,159 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:21:39,171 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-03-02 19:21:39,361 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-03-02 19:21:39,371 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-03-02 19:21:39,371 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-03-02 19:21:39,378 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-03-02 19:21:39,378 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-03-02 19:21:39,503 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-03-02 19:21:39,515 - GeographGuardian - WARNING - Could not identify key entities: could not convert string to float: 'A'
+2025-03-02 19:21:49,366 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:22:12,642 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:12,681 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:12,685 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:22:15,341 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:15,374 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:15,378 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:22:16,471 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:16,507 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:22:16,513 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-03-02 19:22:16,541 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-03-02 19:22:16,552 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-03-02 19:22:16,606 - GeographGuardian - INFO - Graph has 30 vertices
+2025-03-02 19:22:16,606 - GeographGuardian - INFO - Running betweenness centrality with k=30
+2025-03-02 19:22:16,699 - GeographGuardian - INFO - Betweenness centrality computed successfully
+2025-03-02 19:22:16,701 - GeographGuardian - INFO - Loaded 15 supplier names
+2025-03-02 19:22:28,977 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:26:20,506 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:20,538 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:20,542 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:26:22,647 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:22,680 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:22,683 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:26:32,065 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:32,103 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:26:32,106 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:26:32,161 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 19:26:32,479 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_japan
+2025-03-02 19:26:32,744 - GeographGuardian - DEBUG - Saved to cache: geo_europe,_germany
+2025-03-02 19:26:33,019 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_taiwan
+2025-03-02 19:26:33,022 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:26:33,023 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:26:33,298 - GeographGuardian - DEBUG - Saved to cache: geo_americas,_usa
+2025-03-02 19:26:33,568 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_china
+2025-03-02 19:26:33,571 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:26:33,573 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:26:33,575 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:26:33,848 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_south_korea
+2025-03-02 19:26:33,851 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:26:33,853 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:26:33,855 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:26:33,857 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:26:33,859 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 19:26:33,911 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 19:26:34,088 - GeographGuardian - DEBUG - Saved to cache: current_1.9847397_32.5342155
+2025-03-02 19:26:34,309 - GeographGuardian - DEBUG - Saved to cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:34,309 - GeographGuardian - ERROR - Error processing weather for supplier SUP001: 'str' object has no attribute 'get'
+2025-03-02 19:26:34,479 - GeographGuardian - DEBUG - Saved to cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:26:34,967 - GeographGuardian - DEBUG - Saved to cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:26:34,967 - GeographGuardian - ERROR - Error processing weather for supplier SUP002: 'str' object has no attribute 'get'
+2025-03-02 19:26:34,967 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:34,968 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:34,968 - GeographGuardian - ERROR - Error processing weather for supplier SUP003: 'str' object has no attribute 'get'
+2025-03-02 19:26:34,968 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:34,968 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:34,968 - GeographGuardian - ERROR - Error processing weather for supplier SUP004: 'str' object has no attribute 'get'
+2025-03-02 19:26:34,969 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:26:34,969 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:26:34,969 - GeographGuardian - ERROR - Error processing weather for supplier SUP005: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,189 - GeographGuardian - DEBUG - Saved to cache: current_19.1982908_-99.5486812
+2025-03-02 19:26:35,430 - GeographGuardian - DEBUG - Saved to cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:26:35,430 - GeographGuardian - ERROR - Error processing weather for supplier SUP006: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - ERROR - Error processing weather for supplier SUP007: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - ERROR - Error processing weather for supplier SUP008: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,431 - GeographGuardian - ERROR - Error processing weather for supplier SUP009: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,431 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - ERROR - Error processing weather for supplier SUP010: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - ERROR - Error processing weather for supplier SUP011: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - ERROR - Error processing weather for supplier SUP012: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,432 - GeographGuardian - ERROR - Error processing weather for supplier SUP013: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,432 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:26:35,433 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:26:35,433 - GeographGuardian - ERROR - Error processing weather for supplier SUP014: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,433 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:26:35,433 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:26:35,433 - GeographGuardian - ERROR - Error processing weather for supplier SUP015: 'str' object has no attribute 'get'
+2025-03-02 19:26:35,433 - GeographGuardian - INFO - Processed 0 suppliers, stored 0 weather events
+2025-03-02 19:31:42,116 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:31:42,152 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:31:42,156 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:31:50,713 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:31:50,751 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:31:50,754 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:31:50,809 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 19:31:50,809 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:31:50,810 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:31:50,811 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:31:50,812 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:31:50,813 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:31:50,815 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:31:50,816 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:31:50,816 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:31:50,817 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:31:50,818 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:31:50,819 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:31:50,820 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:31:50,821 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:31:50,822 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:31:50,823 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:31:50,823 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 19:31:50,876 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 19:31:50,876 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,876 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,876 - GeographGuardian - ERROR - Error processing weather for supplier SUP001: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,876 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:31:50,876 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:31:50,876 - GeographGuardian - ERROR - Error processing weather for supplier SUP002: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,877 - GeographGuardian - ERROR - Error processing weather for supplier SUP003: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,877 - GeographGuardian - ERROR - Error processing weather for supplier SUP004: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:31:50,877 - GeographGuardian - ERROR - Error processing weather for supplier SUP005: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:31:50,877 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:31:50,878 - GeographGuardian - ERROR - Error processing weather for supplier SUP006: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - ERROR - Error processing weather for supplier SUP007: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - ERROR - Error processing weather for supplier SUP008: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - ERROR - Error processing weather for supplier SUP009: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,878 - GeographGuardian - ERROR - Error processing weather for supplier SUP010: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - ERROR - Error processing weather for supplier SUP011: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - ERROR - Error processing weather for supplier SUP012: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,879 - GeographGuardian - ERROR - Error processing weather for supplier SUP013: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:31:50,879 - GeographGuardian - ERROR - Error processing weather for supplier SUP014: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,879 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:31:50,880 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:31:50,880 - GeographGuardian - ERROR - Error processing weather for supplier SUP015: 'str' object has no attribute 'get'
+2025-03-02 19:31:50,880 - GeographGuardian - INFO - Processed 0 suppliers, stored 0 weather events
+2025-03-02 19:34:42,725 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:34:42,762 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:34:42,766 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:34:42,820 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 19:34:42,821 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:34:42,822 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:34:42,823 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:34:42,824 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:34:42,825 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:34:42,826 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:34:42,827 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:34:42,828 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:34:42,829 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:34:42,830 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:34:42,831 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:34:42,832 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:34:42,833 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:34:42,834 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:34:42,834 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:34:42,835 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 19:34:42,888 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 19:34:42,889 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,889 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,889 - GeographGuardian - ERROR - Error processing weather for supplier SUP001: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,889 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:34:42,889 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:34:42,890 - GeographGuardian - ERROR - Error processing weather for supplier SUP002: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,890 - GeographGuardian - ERROR - Error processing weather for supplier SUP003: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,890 - GeographGuardian - ERROR - Error processing weather for supplier SUP004: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:34:42,890 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:34:42,890 - GeographGuardian - ERROR - Error processing weather for supplier SUP005: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,891 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:34:42,891 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:34:42,891 - GeographGuardian - ERROR - Error processing weather for supplier SUP006: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,891 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,891 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,891 - GeographGuardian - ERROR - Error processing weather for supplier SUP007: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,891 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - ERROR - Error processing weather for supplier SUP008: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - ERROR - Error processing weather for supplier SUP009: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - ERROR - Error processing weather for supplier SUP010: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - ERROR - Error processing weather for supplier SUP011: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,892 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,893 - GeographGuardian - ERROR - Error processing weather for supplier SUP012: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,893 - GeographGuardian - ERROR - Error processing weather for supplier SUP013: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:34:42,893 - GeographGuardian - ERROR - Error processing weather for supplier SUP014: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:34:42,893 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:34:42,893 - GeographGuardian - ERROR - Error processing weather for supplier SUP015: 'str' object has no attribute 'get'
+2025-03-02 19:34:42,893 - GeographGuardian - INFO - Processed 0 suppliers, stored 0 weather events
+2025-03-02 19:47:10,541 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:47:10,576 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:47:10,580 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:47:19,863 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:47:19,902 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:47:19,906 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:47:19,960 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 19:47:19,960 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:47:19,960 - GeographGuardian - INFO - Inserting location for supplier SUP001: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,961 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:47:19,961 - GeographGuardian - INFO - Inserting location for supplier SUP002: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 19:47:19,962 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:47:19,962 - GeographGuardian - INFO - Inserting location for supplier SUP003: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,963 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:47:19,964 - GeographGuardian - INFO - Inserting location for supplier SUP004: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,964 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:47:19,964 - GeographGuardian - INFO - Inserting location for supplier SUP005: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 19:47:19,965 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:47:19,965 - GeographGuardian - INFO - Inserting location for supplier SUP006: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 19:47:19,966 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:47:19,966 - GeographGuardian - INFO - Inserting location for supplier SUP007: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,967 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:47:19,967 - GeographGuardian - INFO - Inserting location for supplier SUP008: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,968 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:47:19,968 - GeographGuardian - INFO - Inserting location for supplier SUP009: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,969 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:47:19,969 - GeographGuardian - INFO - Inserting location for supplier SUP010: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,970 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:47:19,970 - GeographGuardian - INFO - Inserting location for supplier SUP011: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,971 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:47:19,971 - GeographGuardian - INFO - Inserting location for supplier SUP012: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,972 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:47:19,972 - GeographGuardian - INFO - Inserting location for supplier SUP013: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,973 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:47:19,973 - GeographGuardian - INFO - Inserting location for supplier SUP014: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 19:47:19,973 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:47:19,974 - GeographGuardian - INFO - Inserting location for supplier SUP015: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:47:19,975 - GeographGuardian - INFO - Coordinates type check for SUP001: object
+2025-03-02 19:47:19,975 - GeographGuardian - INFO - Coordinates value: {'lat': 1.9847397, 'lon': 32.5342155}
+2025-03-02 19:47:19,975 - GeographGuardian - INFO - Coordinates type check for SUP002: object
+2025-03-02 19:47:19,975 - GeographGuardian - INFO - Coordinates value: {'lat': 48.878451749999996, 'lon': 2.315705732787229}
+2025-03-02 19:47:19,975 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 19:47:20,028 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 19:47:20,028 - GeographGuardian - INFO - Processing supplier SUP001 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,028 - GeographGuardian - INFO - Getting weather for supplier SUP001 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,028 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,028 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,028 - GeographGuardian - ERROR - Error processing weather for supplier SUP001: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,030 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,030 - GeographGuardian - INFO - Processing supplier SUP002 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,030 - GeographGuardian - INFO - Getting weather for supplier SUP002 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 19:47:20,030 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:47:20,031 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:47:20,031 - GeographGuardian - ERROR - Error processing weather for supplier SUP002: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,031 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,031 - GeographGuardian - INFO - Processing supplier SUP003 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,031 - GeographGuardian - INFO - Getting weather for supplier SUP003 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,031 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,031 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,031 - GeographGuardian - ERROR - Error processing weather for supplier SUP003: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,031 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,031 - GeographGuardian - INFO - Processing supplier SUP004 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,031 - GeographGuardian - INFO - Getting weather for supplier SUP004 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,032 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,032 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,032 - GeographGuardian - ERROR - Error processing weather for supplier SUP004: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,032 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,032 - GeographGuardian - INFO - Processing supplier SUP005 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,032 - GeographGuardian - INFO - Getting weather for supplier SUP005 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 19:47:20,032 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:47:20,032 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:47:20,032 - GeographGuardian - ERROR - Error processing weather for supplier SUP005: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,032 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,032 - GeographGuardian - INFO - Processing supplier SUP006 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,032 - GeographGuardian - INFO - Getting weather for supplier SUP006 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 19:47:20,032 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:47:20,033 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:47:20,033 - GeographGuardian - ERROR - Error processing weather for supplier SUP006: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,033 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,033 - GeographGuardian - INFO - Processing supplier SUP007 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,033 - GeographGuardian - INFO - Getting weather for supplier SUP007 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,033 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,033 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,033 - GeographGuardian - ERROR - Error processing weather for supplier SUP007: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,033 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,033 - GeographGuardian - INFO - Processing supplier SUP008 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,033 - GeographGuardian - INFO - Getting weather for supplier SUP008 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,033 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - ERROR - Error processing weather for supplier SUP008: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,034 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,034 - GeographGuardian - INFO - Processing supplier SUP009 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,034 - GeographGuardian - INFO - Getting weather for supplier SUP009 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - ERROR - Error processing weather for supplier SUP009: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,034 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,034 - GeographGuardian - INFO - Processing supplier SUP010 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,034 - GeographGuardian - INFO - Getting weather for supplier SUP010 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,034 - GeographGuardian - ERROR - Error processing weather for supplier SUP010: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,035 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,035 - GeographGuardian - INFO - Processing supplier SUP011 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,035 - GeographGuardian - INFO - Getting weather for supplier SUP011 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - ERROR - Error processing weather for supplier SUP011: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,035 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,035 - GeographGuardian - INFO - Processing supplier SUP012 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,035 - GeographGuardian - INFO - Getting weather for supplier SUP012 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,035 - GeographGuardian - ERROR - Error processing weather for supplier SUP012: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,036 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,036 - GeographGuardian - INFO - Processing supplier SUP013 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,036 - GeographGuardian - INFO - Getting weather for supplier SUP013 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,036 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,036 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,036 - GeographGuardian - ERROR - Error processing weather for supplier SUP013: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,036 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,036 - GeographGuardian - INFO - Processing supplier SUP014 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,036 - GeographGuardian - INFO - Getting weather for supplier SUP014 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 19:47:20,036 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:47:20,036 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:47:20,036 - GeographGuardian - ERROR - Error processing weather for supplier SUP014: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,036 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,037 - GeographGuardian - INFO - Processing supplier SUP015 with coordinates type: <class 'dict'>
+2025-03-02 19:47:20,037 - GeographGuardian - INFO - Getting weather for supplier SUP015 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:47:20,037 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:47:20,037 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:47:20,037 - GeographGuardian - ERROR - Error processing weather for supplier SUP015: 'str' object has no attribute 'get'
+2025-03-02 19:47:20,037 - GeographGuardian - ERROR - Traceback (most recent call last):
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_data_manager.py", line 127, in collect_weather_for_suppliers
+    events = self.weather_service.get_weather_events_by_coords(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 392, in get_weather_events_by_coords
+    all_events = self.extract_weather_events(current, forecast)
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 245, in extract_weather_events
+    event = self._create_weather_event(
+  File "/home/ramcovasu/hackathon/geograph-guardian/src/weather/weather_service.py", line 349, in _create_weather_event
+    'temperature': weather_item.get('main', {}).get('temp'),
+AttributeError: 'str' object has no attribute 'get'
+
+2025-03-02 19:47:20,037 - GeographGuardian - INFO - Processed 0 suppliers, stored 0 weather events
+2025-03-02 19:53:18,092 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:53:18,128 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:53:18,131 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:53:29,318 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:53:29,358 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:53:29,361 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 19:53:29,415 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 19:53:29,416 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:53:29,416 - GeographGuardian - INFO - Inserting location for supplier SUP001: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,418 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:53:29,418 - GeographGuardian - INFO - Inserting location for supplier SUP002: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 19:53:29,419 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:53:29,419 - GeographGuardian - INFO - Inserting location for supplier SUP003: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,420 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:53:29,420 - GeographGuardian - INFO - Inserting location for supplier SUP004: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,420 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 19:53:29,421 - GeographGuardian - INFO - Inserting location for supplier SUP005: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 19:53:29,422 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:53:29,422 - GeographGuardian - INFO - Inserting location for supplier SUP006: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 19:53:29,423 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:53:29,424 - GeographGuardian - INFO - Inserting location for supplier SUP007: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,424 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 19:53:29,425 - GeographGuardian - INFO - Inserting location for supplier SUP008: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,425 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:53:29,425 - GeographGuardian - INFO - Inserting location for supplier SUP009: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,426 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:53:29,426 - GeographGuardian - INFO - Inserting location for supplier SUP010: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,427 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:53:29,427 - GeographGuardian - INFO - Inserting location for supplier SUP011: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,429 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 19:53:29,429 - GeographGuardian - INFO - Inserting location for supplier SUP012: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,430 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 19:53:29,430 - GeographGuardian - INFO - Inserting location for supplier SUP013: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,430 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 19:53:29,431 - GeographGuardian - INFO - Inserting location for supplier SUP014: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 19:53:29,431 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 19:53:29,431 - GeographGuardian - INFO - Inserting location for supplier SUP015: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 19:53:29,433 - GeographGuardian - INFO - Coordinates type check for SUP001: object
+2025-03-02 19:53:29,433 - GeographGuardian - INFO - Coordinates value: {'lat': 1.9847397, 'lon': 32.5342155}
+2025-03-02 19:53:29,433 - GeographGuardian - INFO - Coordinates type check for SUP002: object
+2025-03-02 19:53:29,433 - GeographGuardian - INFO - Coordinates value: {'lat': 48.878451749999996, 'lon': 2.315705732787229}
+2025-03-02 19:53:29,433 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 19:53:29,486 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 19:53:29,486 - GeographGuardian - INFO - Processing supplier SUP001 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,486 - GeographGuardian - INFO - Getting weather for supplier SUP001 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,486 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,487 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,487 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,487 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,487 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,487 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,550 - GeographGuardian - INFO - Processing supplier SUP002 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,551 - GeographGuardian - INFO - Getting weather for supplier SUP002 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 19:53:29,551 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:53:29,551 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:53:29,551 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,551 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,551 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,551 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,614 - GeographGuardian - INFO - Processing supplier SUP003 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,614 - GeographGuardian - INFO - Getting weather for supplier SUP003 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,615 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,615 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,615 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,615 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,615 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,615 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - Processing supplier SUP004 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - Getting weather for supplier SUP004 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,673 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,673 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,673 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,731 - GeographGuardian - INFO - Processing supplier SUP005 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,731 - GeographGuardian - INFO - Getting weather for supplier SUP005 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 19:53:29,732 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 19:53:29,732 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 19:53:29,732 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,732 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,732 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,732 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,789 - GeographGuardian - INFO - Processing supplier SUP006 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,789 - GeographGuardian - INFO - Getting weather for supplier SUP006 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 19:53:29,790 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:53:29,790 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:53:29,790 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,790 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,790 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,790 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,844 - GeographGuardian - INFO - Processing supplier SUP007 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,844 - GeographGuardian - INFO - Getting weather for supplier SUP007 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,844 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,845 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,845 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,845 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,845 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,845 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,912 - GeographGuardian - INFO - Processing supplier SUP008 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,912 - GeographGuardian - INFO - Getting weather for supplier SUP008 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,912 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,913 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,913 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,913 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,913 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,913 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - Processing supplier SUP009 with coordinates type: <class 'dict'>
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - Getting weather for supplier SUP009 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:29,974 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:29,974 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:29,974 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,032 - GeographGuardian - INFO - Processing supplier SUP010 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,032 - GeographGuardian - INFO - Getting weather for supplier SUP010 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:30,032 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:30,032 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:30,032 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,033 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,033 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,033 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,089 - GeographGuardian - INFO - Processing supplier SUP011 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,089 - GeographGuardian - INFO - Getting weather for supplier SUP011 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:30,090 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:30,090 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:30,090 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,090 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,090 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,090 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,147 - GeographGuardian - INFO - Processing supplier SUP012 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,147 - GeographGuardian - INFO - Getting weather for supplier SUP012 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:30,148 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:30,148 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:30,148 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,148 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,148 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,148 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,205 - GeographGuardian - INFO - Processing supplier SUP013 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,205 - GeographGuardian - INFO - Getting weather for supplier SUP013 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:30,206 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:30,206 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:30,206 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,206 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,206 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,206 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - Processing supplier SUP014 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - Getting weather for supplier SUP014 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 19:53:30,263 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 19:53:30,263 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,263 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - Processing supplier SUP015 with coordinates type: <class 'dict'>
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - Getting weather for supplier SUP015 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 19:53:30,319 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 19:53:30,319 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 19:53:30,319 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 19:53:30,378 - GeographGuardian - INFO - Processed 15 suppliers, stored 615 weather events
+2025-03-02 19:54:20,466 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:54:20,505 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 19:54:20,509 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:41:22,499 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:41:22,533 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:41:22,537 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:45:34,378 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:45:34,421 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:45:34,424 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:46:14,073 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:46:14,112 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:46:14,115 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:46:50,278 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:46:50,320 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:46:50,326 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-03-02 20:46:50,605 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-03-02 20:46:50,631 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-03-02 20:46:50,632 - GeographGuardian - INFO - Converting directed graph to undirected for community detection
+2025-03-02 20:46:50,639 - GeographGuardian - INFO - Edge DataFrame columns: ['source', 'target']
+2025-03-02 20:46:50,639 - GeographGuardian - WARNING - Using columns source and target as source and destination
+2025-03-02 20:46:50,836 - GeographGuardian - INFO - Louvain completed with modularity: 0.8298611044883728
+2025-03-02 20:46:50,844 - GeographGuardian - WARNING - Could not identify key entities: could not convert string to float: 'A'
+2025-03-02 20:47:01,777 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:47:36,104 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:36,141 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:36,144 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:47:39,277 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:39,321 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:39,324 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:47:40,628 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:40,666 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:47:40,672 - GeographGuardian - INFO - Prepared supplier-part graph with 24 edges
+2025-03-02 20:47:40,715 - GeographGuardian - INFO - Created cuGraph graph with 24 edges
+2025-03-02 20:47:40,722 - GeographGuardian - INFO - Graph stats: 30 vertices, 24 edges
+2025-03-02 20:47:40,775 - GeographGuardian - INFO - Graph has 30 vertices
+2025-03-02 20:47:40,776 - GeographGuardian - INFO - Running betweenness centrality with k=30
+2025-03-02 20:47:40,884 - GeographGuardian - INFO - Betweenness centrality computed successfully
+2025-03-02 20:47:40,886 - GeographGuardian - INFO - Loaded 15 supplier names
+2025-03-02 20:47:51,319 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:48:11,854 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:48:11,890 - GeographGuardian - INFO - CUDA is available for graph processing
+2025-03-02 20:48:11,894 - GeographGuardian - INFO - Loaded 28 country mappings
+2025-03-02 20:48:11,948 - GeographGuardian - INFO - Retrieved 15 suppliers
+2025-03-02 20:48:11,949 - GeographGuardian - DEBUG - Cache expired for geo_apac,_japan
+2025-03-02 20:48:12,403 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_japan
+2025-03-02 20:48:12,403 - GeographGuardian - INFO - Inserting location for supplier SUP001: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:12,405 - GeographGuardian - DEBUG - Cache expired for geo_europe,_germany
+2025-03-02 20:48:12,658 - GeographGuardian - DEBUG - Saved to cache: geo_europe,_germany
+2025-03-02 20:48:12,658 - GeographGuardian - INFO - Inserting location for supplier SUP002: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 20:48:12,660 - GeographGuardian - DEBUG - Cache expired for geo_apac,_taiwan
+2025-03-02 20:48:12,912 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_taiwan
+2025-03-02 20:48:12,912 - GeographGuardian - INFO - Inserting location for supplier SUP003: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:12,914 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 20:48:12,914 - GeographGuardian - INFO - Inserting location for supplier SUP004: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:12,915 - GeographGuardian - DEBUG - Retrieved from cache: geo_europe,_germany
+2025-03-02 20:48:12,915 - GeographGuardian - INFO - Inserting location for supplier SUP005: {"lat": 48.878451749999996, "lon": 2.315705732787229}
+2025-03-02 20:48:12,916 - GeographGuardian - DEBUG - Cache expired for geo_americas,_usa
+2025-03-02 20:48:13,168 - GeographGuardian - DEBUG - Saved to cache: geo_americas,_usa
+2025-03-02 20:48:13,168 - GeographGuardian - INFO - Inserting location for supplier SUP006: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 20:48:13,170 - GeographGuardian - DEBUG - Cache expired for geo_apac,_china
+2025-03-02 20:48:13,421 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_china
+2025-03-02 20:48:13,421 - GeographGuardian - INFO - Inserting location for supplier SUP007: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,422 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_japan
+2025-03-02 20:48:13,422 - GeographGuardian - INFO - Inserting location for supplier SUP008: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,423 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 20:48:13,424 - GeographGuardian - INFO - Inserting location for supplier SUP009: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,425 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 20:48:13,425 - GeographGuardian - INFO - Inserting location for supplier SUP010: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,426 - GeographGuardian - DEBUG - Cache expired for geo_apac,_south_korea
+2025-03-02 20:48:13,676 - GeographGuardian - DEBUG - Saved to cache: geo_apac,_south_korea
+2025-03-02 20:48:13,676 - GeographGuardian - INFO - Inserting location for supplier SUP011: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,677 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_china
+2025-03-02 20:48:13,677 - GeographGuardian - INFO - Inserting location for supplier SUP012: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,678 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_taiwan
+2025-03-02 20:48:13,679 - GeographGuardian - INFO - Inserting location for supplier SUP013: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,679 - GeographGuardian - DEBUG - Retrieved from cache: geo_americas,_usa
+2025-03-02 20:48:13,680 - GeographGuardian - INFO - Inserting location for supplier SUP014: {"lat": 19.1982908, "lon": -99.5486812}
+2025-03-02 20:48:13,680 - GeographGuardian - DEBUG - Retrieved from cache: geo_apac,_south_korea
+2025-03-02 20:48:13,680 - GeographGuardian - INFO - Inserting location for supplier SUP015: {"lat": 1.9847397, "lon": 32.5342155}
+2025-03-02 20:48:13,682 - GeographGuardian - INFO - Coordinates type check for SUP001: object
+2025-03-02 20:48:13,682 - GeographGuardian - INFO - Coordinates value: {'lat': 1.9847397, 'lon': 32.5342155}
+2025-03-02 20:48:13,682 - GeographGuardian - INFO - Coordinates type check for SUP002: object
+2025-03-02 20:48:13,682 - GeographGuardian - INFO - Coordinates value: {'lat': 48.878451749999996, 'lon': 2.315705732787229}
+2025-03-02 20:48:13,682 - GeographGuardian - INFO - Updated 15 supplier locations
+2025-03-02 20:48:13,734 - GeographGuardian - INFO - Processing weather for 15 supplier locations
+2025-03-02 20:48:13,735 - GeographGuardian - INFO - Processing supplier SUP001 with coordinates type: <class 'dict'>
+2025-03-02 20:48:13,735 - GeographGuardian - INFO - Getting weather for supplier SUP001 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:13,735 - GeographGuardian - DEBUG - Cache expired for current_1.9847397_32.5342155
+2025-03-02 20:48:13,907 - GeographGuardian - DEBUG - Saved to cache: current_1.9847397_32.5342155
+2025-03-02 20:48:13,909 - GeographGuardian - DEBUG - Cache expired for forecast_1.9847397_32.5342155
+2025-03-02 20:48:14,148 - GeographGuardian - DEBUG - Saved to cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:14,149 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:14,149 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:14,149 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:14,149 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:14,211 - GeographGuardian - INFO - Processing supplier SUP002 with coordinates type: <class 'dict'>
+2025-03-02 20:48:14,211 - GeographGuardian - INFO - Getting weather for supplier SUP002 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 20:48:14,212 - GeographGuardian - DEBUG - Cache expired for current_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,384 - GeographGuardian - DEBUG - Saved to cache: current_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,386 - GeographGuardian - DEBUG - Cache expired for forecast_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,625 - GeographGuardian - DEBUG - Saved to cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,626 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:14,626 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:14,626 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:14,626 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:14,691 - GeographGuardian - INFO - Processing supplier SUP003 with coordinates type: <class 'dict'>
+2025-03-02 20:48:14,691 - GeographGuardian - INFO - Getting weather for supplier SUP003 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:14,691 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:14,692 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:14,692 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:14,692 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:14,692 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:14,692 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:14,753 - GeographGuardian - INFO - Processing supplier SUP004 with coordinates type: <class 'dict'>
+2025-03-02 20:48:14,753 - GeographGuardian - INFO - Getting weather for supplier SUP004 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:14,753 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:14,753 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:14,753 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:14,754 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:14,754 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:14,754 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - Processing supplier SUP005 with coordinates type: <class 'dict'>
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - Getting weather for supplier SUP005 at coordinates: lat=48.878451749999996, lon=2.315705732787229
+2025-03-02 20:48:14,815 - GeographGuardian - DEBUG - Retrieved from cache: current_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,815 - GeographGuardian - DEBUG - Retrieved from cache: forecast_48.878451749999996_2.315705732787229
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:14,815 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:14,884 - GeographGuardian - INFO - Processing supplier SUP006 with coordinates type: <class 'dict'>
+2025-03-02 20:48:14,884 - GeographGuardian - INFO - Getting weather for supplier SUP006 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 20:48:14,885 - GeographGuardian - DEBUG - Cache expired for current_19.1982908_-99.5486812
+2025-03-02 20:48:15,068 - GeographGuardian - DEBUG - Saved to cache: current_19.1982908_-99.5486812
+2025-03-02 20:48:15,069 - GeographGuardian - DEBUG - Cache expired for forecast_19.1982908_-99.5486812
+2025-03-02 20:48:15,298 - GeographGuardian - DEBUG - Saved to cache: forecast_19.1982908_-99.5486812
+2025-03-02 20:48:15,298 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,298 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,298 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,298 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,362 - GeographGuardian - INFO - Processing supplier SUP007 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,363 - GeographGuardian - INFO - Getting weather for supplier SUP007 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,363 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,363 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,363 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,363 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,363 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,363 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - Processing supplier SUP008 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - Getting weather for supplier SUP008 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,427 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,427 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,427 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,488 - GeographGuardian - INFO - Processing supplier SUP009 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,489 - GeographGuardian - INFO - Getting weather for supplier SUP009 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,489 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,489 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,489 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,489 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,489 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,489 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - Processing supplier SUP010 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - Getting weather for supplier SUP010 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,553 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,553 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,553 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - Processing supplier SUP011 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - Getting weather for supplier SUP011 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,614 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,614 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,614 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,676 - GeographGuardian - INFO - Processing supplier SUP012 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,676 - GeographGuardian - INFO - Getting weather for supplier SUP012 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,677 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,677 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,677 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,677 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,677 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,677 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,739 - GeographGuardian - INFO - Processing supplier SUP013 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,739 - GeographGuardian - INFO - Getting weather for supplier SUP013 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,740 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,740 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,740 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,740 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,740 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,740 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,799 - GeographGuardian - INFO - Processing supplier SUP014 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,799 - GeographGuardian - INFO - Getting weather for supplier SUP014 at coordinates: lat=19.1982908, lon=-99.5486812
+2025-03-02 20:48:15,800 - GeographGuardian - DEBUG - Retrieved from cache: current_19.1982908_-99.5486812
+2025-03-02 20:48:15,800 - GeographGuardian - DEBUG - Retrieved from cache: forecast_19.1982908_-99.5486812
+2025-03-02 20:48:15,800 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,800 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,800 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,800 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,861 - GeographGuardian - INFO - Processing supplier SUP015 with coordinates type: <class 'dict'>
+2025-03-02 20:48:15,861 - GeographGuardian - INFO - Getting weather for supplier SUP015 at coordinates: lat=1.9847397, lon=32.5342155
+2025-03-02 20:48:15,861 - GeographGuardian - DEBUG - Retrieved from cache: current_1.9847397_32.5342155
+2025-03-02 20:48:15,862 - GeographGuardian - DEBUG - Retrieved from cache: forecast_1.9847397_32.5342155
+2025-03-02 20:48:15,862 - GeographGuardian - INFO - Current weather response type: <class 'dict'>
+2025-03-02 20:48:15,862 - GeographGuardian - INFO - Forecast response type: <class 'dict'>
+2025-03-02 20:48:15,862 - GeographGuardian - INFO - Weather list type: <class 'list'>
+2025-03-02 20:48:15,862 - GeographGuardian - INFO - First weather item type: <class 'dict'>
+2025-03-02 20:48:15,925 - GeographGuardian - INFO - Processed 15 suppliers, stored 615 weather events

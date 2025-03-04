@@ -1,0 +1,18 @@
+
+
+
+1. can you get 7 suppliers and their risk scores?
+
+2. can you give me the name of the suppliers and their risk scores who can supply parts similar to the suppliers in JAPAN?
+
+3. Show me suppliers who have had delayed purchase orders and their current risk scores 
+
+4. Show parts with HIGH criticality level where current inventory is below safety stock, include the supplier's risk score and lead time 
+
+5. List all warehouse locations where product part LID001 has quantity on hand greater than safety stock?
+
+6. Show me all parts that had negative inventory transactions (issues/stockouts) along with their primary suppliers' risk scores and current inventory levels
+
+7. Show me all suppliers who provide parts with HIGH criticality that are primary suppliers and have risk scores above .75
+
+8. can you give me names of alternate supplier to POWERCELL along with their risk scores and names of parts they can supply?

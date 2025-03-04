@@ -1,0 +1,16 @@
+supplier_id,supplier_name,country,region,supplier_rating,established_date
+SUP001,LidarTech,Japan,APAC,A,2010-01-01
+SUP002,SensoMax,Germany,EUROPE,A,2008-03-15
+SUP003,OptiVision,Taiwan,APAC,B,2012-06-20
+SUP004,TechCore,Taiwan,APAC,A,2009-02-28
+SUP005,RoboControl,Germany,EUROPE,A,2007-11-30
+SUP006,ProcessorPro,USA,AMERICAS,A,2005-08-15
+SUP007,MotionTech,China,APAC,B,2011-04-22
+SUP008,DriveSystem,Japan,APAC,A,2009-07-11
+SUP009,ServoMax,China,APAC,B,2013-09-30
+SUP010,PowerCell,China,APAC,B,2010-12-25
+SUP011,EnergyTech,South Korea,APAC,A,2008-06-18
+SUP012,MetalTech,China,APAC,B,2007-03-14
+SUP013,JointFlex,Taiwan,APAC,A,2011-11-07
+SUP014,ThermalTech,USA,AMERICAS,A,2006-05-29
+SUP015,ClearSight,South Korea,APAC,A,2010-09-03
