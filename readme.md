@@ -6,7 +6,7 @@ GeoGraph Guardian is an advanced supply chain risk monitoring system that combin
 
 GeoGraph Guardian enables:
 
-- **Real-time risk prediction** by analyzing network patterns and geopolitical events
+- **Real-time risk prediction** by analyzing network patterns and weather events
 - **Natural language queries** for complex supply chain scenarios
 - **GPU-accelerated graph analytics** to identify vulnerable nodes and alternative paths
 - **Hybrid query execution** combining ArangoDB's AQL for path analysis and cuGraph for complex network metrics
@@ -70,7 +70,7 @@ GeoGraph Guardian is built with a sophisticated tech stack:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ramcovasu/Geograph.git
+   git clone https://github.com/ramcovasu/geograph-guardian.git
    cd geograph-guardian
    ```
 
